@@ -1,13 +1,9 @@
 package org.acme.servlet;
 
-import com.github.mvysny.kaributesting.v10.MockVaadin;
-import com.github.mvysny.kaributesting.v10.Routes;
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.textfield.TextField;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
+import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
 
 import static com.github.mvysny.kaributesting.v10.LocatorJ.*;
@@ -18,6 +14,7 @@ import static com.github.mvysny.kaributesting.v10.NotificationsKt.expectNotifica
  * [Karibu Testing](https://github.com/mvysny/karibu-testing) library.
  * @author Martin Vysny <mavi@vaadin.com>
  */
+@QuarkusTest
 public class MainViewTest extends AbstractAppTest {
     @Test
     public void smokeTest() {
