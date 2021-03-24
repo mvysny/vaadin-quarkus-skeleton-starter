@@ -3,6 +3,7 @@
 > Work on this project has been kindly sponsored by [Inacta AG](https://inacta.ch).
 
 A very basic Vaadin app which runs on top of [Quarkus](https://quarkus.io/).
+Contains only a minimal code to get you started. Serves as an archetype app.
 
 Uses [Vaadin Quarkus Extension](https://github.com/urosporo/vaadin-quarkus-extension-parent)
 to run smoothly on top of Quarkus.
