@@ -11,6 +11,8 @@ to run smoothly on top of Quarkus.
 See the [Vaadin Quarkus](https://github.com/mvysny/vaadin-quarkus/) example application
 for a more complex demo.
 
+> Note: Starting with Vaadin 22, Quarkus is now an [official Vaadin offering](https://vaadin.com/docs/latest/flow/integrations/quarkus).
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
